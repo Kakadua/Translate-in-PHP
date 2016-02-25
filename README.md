@@ -27,7 +27,7 @@ Example:
 		$microsoft = $translate->microsoft($str); //Could also be called as $translate->microsoft($str, $translateTo); or  $translate->microsoft($str, $translateFrom, $translateTo);
 		
 		$translate->setYandexKey("YOUR YANDEX KEY"); //Get one here https://tech.yandex.com/keys/get/?service=trnsl
-		$yandex = $translate->yandex($str).'</p></div>'; //Could also be called as $translate->yandex($str, $translateTo); or  $translate->yandex($str, $translateFrom, $translateTo);
+		$yandex = $translate->yandex($str); //Could also be called as $translate->yandex($str, $translateTo); or  $translate->yandex($str, $translateFrom, $translateTo);
 		
 		
 		echo "<div>
